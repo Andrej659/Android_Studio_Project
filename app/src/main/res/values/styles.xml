@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textBoxDiary">
+        <item name="android:layout_width">356dp</item>
+        <item name="android:layout_height">290dp</item>
+        <item name="android:width">300dp</item>
+        <item name="android:background">@drawable/textview_border</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">text</item>
+    </style>
+</resources>

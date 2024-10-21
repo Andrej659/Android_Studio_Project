@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calmscape_bg"
+    tools:context=".activities.DiaryActivity">
+
+    <Button
+        android:id="@+id/btn_task_continue"
+        android:layout_width="172dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="proceed"
+        android:text="@string/btn_continue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextBoxDiary" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="350dp"
+        android:layout_height="247dp"
+        android:fontFamily="@font/pacifico"
+        android:text="@string/textBox_diary"
+        android:textAlignment="center"
+        android:textSize="41sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <EditText
+
+        android:id="@+id/TextBoxDiary"
+        android:layout_width="352dp"
+        android:layout_height="354dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textview_border"
+        android:ems="10"
+        android:hint="@string/hint_diary"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.055" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

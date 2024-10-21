@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CalmScape</string>
+    <string name="hint_Username">Username</string>
+    <string name="textView_hello">Hello!</string>
+    <string name="btn_newDay">Start your first day</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_great">Great</string>
+    <string name="btn_good">Good</string>
+    <string name="btn_okay">Okay</string>
+    <string name="btn_bad">Bad</string>
+    <string name="btn_awful">Awful</string>
+    <string name="textView_howWasYDay">How was your day?</string>
+    <string name="hint_diary">Write something in your diary...</string>
+    <string name="btn_continue">Continue</string>
+    <string name="textBox_diary">Write something to remember this day by!</string>
+    <string name="textView_tasks">Did you do any of the tasks you set for yourself?</string>
+    <string name="textView_newTask">Do you want to add a new task?</string>
+    <string name="hint_task">New task...</string>
+    <string name="btn_send">>></string>
+    <string name="btn_listOfTasks">Tasks</string>
+    <string name="btn_finish">Finish the form</string>
+    <string name="hint_diaryCalendar">An entry from the selected date</string>
+    <string name="textView_welcome">Welcome to CalmScape</string>
+    <string name="hint_feeling_textView">How you felt that day.</string>
+    <string name="btn_endApp">Leave the app</string>
+</resources>
